@@ -16,5 +16,5 @@ export default {
 </script>
 
 <style lang="sass">
-@import "@/styles/styles"
+@import "@/styles"
 </style>
