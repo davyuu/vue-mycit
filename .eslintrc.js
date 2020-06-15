@@ -4,13 +4,19 @@ module.exports = {
     node: true
   },
   extends: [
-    "plugin:vue/essential",
-    "eslint:recommended"
+    'plugin:vue/essential',
+    'eslint:recommended'
   ],
   parserOptions: {
-    parser: "babel-eslint"
+    parser: 'babel-eslint'
   },
   rules: {
-    "quote-props": ["warn", "as-needed"]
+    'comma-dangle': ['warn', 'never'],
+    'indent': ['warn', 2],
+    'no-trailing-spaces': 'warn',
+    'no-unused-vars': 'warn',
+    'quotes': ['warn', 'single'],
+    'quote-props': ['warn', 'as-needed'],
+    'vue/no-unused-vars': 'warn'
   }
 }
