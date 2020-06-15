@@ -1,9 +1,9 @@
 <template>
-  <div class="section">
+  <div class='section'>
     <ul>
-      <li v-for="section in sections" :key="section.key">
-        <div class="card">
-          <Icon :icon="section.icon" size="large" />
+      <li v-for='section in sections' :key='section.key'>
+        <div class='card'>
+          <Icon :icon='section.icon' size='large' />
           <p>{{ section.name }}</p>
         </div>
       </li>
@@ -69,8 +69,8 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-@import "@/styles"
+<style lang='sass' scoped>
+@import '@/styles'
 
 .section
   padding: 0 d(4)
@@ -105,6 +105,7 @@ export default {
 
   p
     margin-top: d(2)
+    +body-medium
 
   .icon
     fill: #5938d9

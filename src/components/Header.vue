@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img alt="Vue logo" src="@/assets/logo.png">
+    <img alt='Vue logo' src='@/assets/logo.png'>
     <h1>Welcome</h1>
   </header>
 </template>
@@ -11,19 +11,20 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="sass" scoped>
-@import "@/styles"
+<!-- Add 'scoped' attribute to limit CSS to this component only -->
+<style lang='sass' scoped>
+@import '@/styles'
 
 header
   display: flex
   flex-direction: column
   align-items: center
-  padding: d(8)
+  padding: d(4)
 
 img
   height: d(8)
 
 h1
-  margin: d(5)
+  margin-top: d(5)
+  +title-large
 </style>

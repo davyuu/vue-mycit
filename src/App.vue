@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id='app'>
     <Header/>
     <Section/>
   </div>
@@ -18,6 +18,6 @@ export default {
 }
 </script>
 
-<style lang="sass">
-@import "@/styles"
+<style lang='sass'>
+@import '@/styles'
 </style>

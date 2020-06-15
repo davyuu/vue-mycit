@@ -1,7 +1,7 @@
 <template>
-  <div class="icon" :class="size">
-    <component :is="component"/>
-    <!-- <div v-html="require(`@/assets/home/${icon}.svg`)"/> -->
+  <div class='icon' :class='size'>
+    <component :is='component'/>
+    <!-- <div v-html='require(`@/assets/home/${icon}.svg`)'/> -->
   </div>
 </template>
 
@@ -30,13 +30,13 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="sass">
-@import "@/styles"
+<!-- Add 'scoped' attribute to limit CSS to this component only -->
+<style lang='sass'>
+@import '@/styles'
 
 div.icon
   display: inline-block
-  fill: $gray-x-dark
+  fill: $gray-xx-dark
 
   &.tiny
     height: d(2)
