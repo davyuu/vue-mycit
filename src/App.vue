@@ -1,23 +1,13 @@
 <template>
-  <div id='app'>
-    <Header/>
-    <Section/>
-  </div>
+  <main>
+    <router-view/>
+  </main>
 </template>
-
-<script>
-import Header from '@/components/Header.vue'
-import Section from '@/components/Section.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Header,
-    Section
-  }
-}
-</script>
 
 <style lang='sass'>
 @import '@/styles'
+
+main
+  height: 100vh
+  width: 100vw
 </style>
