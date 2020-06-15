@@ -2,10 +2,10 @@
   <div class='section'>
     <ul>
       <li v-for='section in sections' :key='section.key'>
-        <div class='card'>
+        <router-link class='card' to="/about">
           <Icon :icon='section.icon' size='large' />
           <p>{{ section.name }}</p>
-        </div>
+        </router-link>
       </li>
     </ul>
   </div>
@@ -93,6 +93,7 @@ export default {
         width: calc(100%/3)
 
 .card
+  display: block
   height: 100%
   padding: d(4) d(2)
   border-radius: d(1)
@@ -106,6 +107,7 @@ export default {
   p
     margin-top: d(2)
     +body-medium
+    +fc-dark
 
   .icon
     fill: #5938d9
