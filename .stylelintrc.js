@@ -1,5 +1,9 @@
+/* eslint-disable quote-props */
 module.exports = {
   extends: 'stylelint-config-recommended',
+  plugins: [
+    'stylelint-scss'
+  ],
   rules: {
     'block-no-empty': true,
     'color-no-invalid-hex': true,

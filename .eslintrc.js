@@ -1,3 +1,4 @@
+/* eslint-disable quote-props */
 module.exports = {
   root: true,
   env: {
