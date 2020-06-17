@@ -17,6 +17,7 @@ module.exports = {
     'no-unused-vars': 'warn',
     'quotes': ['warn', 'single'],
     'quote-props': ['warn', 'as-needed'],
+    'vue/no-unused-components': 'warn',
     'vue/no-unused-vars': 'warn'
   }
 }

@@ -4,7 +4,7 @@
   </main>
 </template>
 
-<style lang='sass'>
+<style lang='sass' scoped>
 @import '@/styles'
 
 main
